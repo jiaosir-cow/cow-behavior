@@ -1,0 +1,168 @@
+{
+  "protocol": "leave-one-cow-out",
+  "cow_codes": "A-I",
+  "folds": [
+    {
+      "fold": 1,
+      "test_cows": [
+        "H"
+      ],
+      "validation_cows": [
+        "A",
+        "B"
+      ],
+      "train_cows": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "I"
+      ]
+    },
+    {
+      "fold": 2,
+      "test_cows": [
+        "G"
+      ],
+      "validation_cows": [
+        "A",
+        "B"
+      ],
+      "train_cows": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "fold": 3,
+      "test_cows": [
+        "A"
+      ],
+      "validation_cows": [
+        "B",
+        "C"
+      ],
+      "train_cows": [
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "fold": 4,
+      "test_cows": [
+        "B"
+      ],
+      "validation_cows": [
+        "A",
+        "C"
+      ],
+      "train_cows": [
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "fold": 5,
+      "test_cows": [
+        "E"
+      ],
+      "validation_cows": [
+        "A",
+        "B"
+      ],
+      "train_cows": [
+        "C",
+        "D",
+        "F",
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "fold": 6,
+      "test_cows": [
+        "F"
+      ],
+      "validation_cows": [
+        "A",
+        "B"
+      ],
+      "train_cows": [
+        "C",
+        "D",
+        "E",
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "fold": 7,
+      "test_cows": [
+        "C"
+      ],
+      "validation_cows": [
+        "A",
+        "B"
+      ],
+      "train_cows": [
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "fold": 8,
+      "test_cows": [
+        "D"
+      ],
+      "validation_cows": [
+        "A",
+        "B"
+      ],
+      "train_cows": [
+        "C",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "fold": 9,
+      "test_cows": [
+        "I"
+      ],
+      "validation_cows": [
+        "A",
+        "B"
+      ],
+      "train_cows": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    }
+  ]
+}
