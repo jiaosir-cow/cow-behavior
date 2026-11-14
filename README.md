@@ -1,16 +1,6 @@
 # Tail-root dairy cow behaviour annotations
 
-De-identified interval labels for tail-root inertial recordings of dairy cows. Animals are identified only by the letters A–I used in the accompanying manuscript. This release follows the public pattern used by accelerometer behaviour papers: a versioned table, a column dictionary, the animal-disjoint split, a citation, and an open licence. The annotation software is separate.
-
-## Citation
-
-Jiao, T., Zhang, J., Zhang, X., Zhang, Y., Jiang, Q., Yang, Z., Zhang, Y. Tail-root dairy cow behaviour annotations (letters A–I).
-
-If you use these labels, also cite the manuscript when it is published.
-
-## Software
-
-COWMATA Pro, the annotation and review program, is public at <https://github.com/zxq309/COWMATA-Pro>. That repository does not contain this experimental table.
+De-identified interval labels for tail-root inertial recordings of dairy cows A–I.
 
 ## Contents
 
@@ -20,10 +10,20 @@ COWMATA Pro, the annotation and review program, is public at <https://github.com
 | `dataset/cow_disjoint_folds.json` | Nine leave-one-cow-out folds, letters only |
 | `dataset/DATA_DICTIONARY.md` | Column definitions |
 
+`annotations.csv` columns: `public_id`, `cow`, `layer`, `label`, `label_en`, `code`, `protocol`, `t_start_rel_ms`, `t_end_rel_ms`, `duration_ms`, `session_in_cow`. `session_in_cow` is an index within that cow, not a clock time. Each fold names its test, validation, and training cows by letter.
+
 ## Animals
 
-Letters A–I are the primary cohort. The file has no farm identifiers, device addresses, staff names, video file names, or the private letter-to-record key. Cows J–M from the second collection batch are not in this annotation table.
+Letters A–I only. The table has no farm identifiers, device addresses, staff names, video file names, or letter-to-record key. Cows J–M are not included.
+
+## Citation
+
+Jiao, T., Zhang, J., Zhang, X., Zhang, Y., Jiang, Q., Yang, Z., Zhang, Y. Tail-root dairy cow behaviour annotations (letters A–I).
+
+Also cite the manuscript when it is published.
+
+Annotation software: [COWMATA Pro](https://github.com/zxq309/COWMATA-Pro).
 
 ## Licence
 
-The annotation table and split file are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
