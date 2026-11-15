@@ -30,7 +30,7 @@ Public interval labels released with [COWMATA Pro](https://github.com/zxq309/COW
 | [`dataset/cow_disjoint_folds.json`](dataset/cow_disjoint_folds.json) | Nine leave-one-cow-out folds, letters only |
 | [`dataset/DATA_DICTIONARY.md`](dataset/DATA_DICTIONARY.md) | Column definitions |
 
-`annotations.csv` columns: `public_id`, `cow`, `layer`, `label`, `label_en`, `code`, `protocol`, `t_start_rel_ms`, `t_end_rel_ms`, `duration_ms`, `session_in_cow`. `session_in_cow` is an index within that cow, not a clock time. Each fold names its test, validation, and training cows by letter.
+`annotations.csv` columns: `public_id`, `cow`, `layer`, `label`, `label_en`, `code`, `protocol`, `t_start_rel_ms`, `t_end_rel_ms`, `duration_ms`. Each fold names its test, validation, and training cows by letter.
 
 ## Animals
 
@@ -51,5 +51,7 @@ The annotation table and the cow-disjoint split are [CC BY 4.0](LICENSE). The CO
 ## Contact
 
 Xiangqing Zhang (corresponding author) — jiaosirty@stu.yau.edu.cn
+
+Questions: open a GitHub issue.
 
 Questions: open a GitHub issue.
