@@ -53,5 +53,3 @@ The annotation table and the cow-disjoint split are [CC BY 4.0](LICENSE). The CO
 Xiangqing Zhang (corresponding author) — jiaosirty@stu.yau.edu.cn
 
 Questions: open a GitHub issue.
-
-Questions: open a GitHub issue.
