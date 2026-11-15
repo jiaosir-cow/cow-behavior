@@ -34,7 +34,7 @@ Public interval labels released with [COWMATA Pro](https://github.com/zxq309/COW
 
 ## Animals
 
-Letters A–I only. The table has no farm identifiers, device addresses, staff names, video file names, or letter-to-record key. Cows J–M are not included.
+The behaviour annotations are released with this repository. Training settings, intermediate results, and materials on data acquisition and device development are available from the corresponding author on request.
 
 ## Citation
 
