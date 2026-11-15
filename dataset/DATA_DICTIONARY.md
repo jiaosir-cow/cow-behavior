@@ -14,6 +14,5 @@
 | `t_start_rel_ms` | Start time relative to the recording segment, milliseconds |
 | `t_end_rel_ms` | End time relative to the recording segment, milliseconds |
 | `duration_ms` | Interval duration, milliseconds |
-| `session_in_cow` | Session index within that cow. It does not encode a clock time or a device |
 
 `dataset/cow_disjoint_folds.json` lists nine folds. Each fold names the test, validation, and training cows by letter. A cow listed as test does not appear in that fold's training or validation lists.
